@@ -44,7 +44,7 @@
   position: fixed; 
   left:0px;
   top:5px;
-  width:45%;
+  width:35%;
 }
 
 /* .welcome-container {
