@@ -1,5 +1,7 @@
 <script>
         import Center from "./Center.svelte";
+        import grow from "../imgs/growth.png";
+
     /*
     -inside this page I have some text and a component called Text
     -this component tries to center anything found inside it's tags
@@ -27,19 +29,21 @@
 </Center>
 
 
+
 <style>
 
 
     .welcome-container {
+      display:flex;
       position: relative;
+      align-items: center;
       max-width: fit-content;
-      line-height: 4rem;
+      line-height: 2rem;
       margin: 0;
-      top: 10rem;
+      top: 4rem;
       padding:0;
       
   }
-
 
   .hero-content p {
     align-items: right;
@@ -61,12 +65,16 @@
   margin-right: 0;
   }
  
-   
+  .dispic{
+    max-height: 500px;
+  }
  .text-2{
-  font-size: 2.7rem;  
+  font-size: 4rem;  
+  font-style: italic;
   font-weight: 200;
   line-height: 3rem;
   color:rgb(0, 0, 0);
+  align-content: center;
  }    
  
   .subtitle {
