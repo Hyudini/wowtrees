@@ -19,10 +19,10 @@
 
 
     <!-- <div class="sadge"> -->
+    <div class="topist">
+        <img alt="weirdshape" src={weirdshape2}/>
+    </div>
     <div class="sadge">
-        <div class="topist">
-            <img alt="weirdshape" src={weirdshape2}/>
-        </div>
         <br/>
         <div class="huh">
             <div class="ourvision">
@@ -30,21 +30,20 @@
                 <br/>
                 We support the movement of making our planet a save place for future generations to live. Through us we will educate young people and give them the opportunities to make an impact by saving trees affected by different social crisis.
             </div>
-            <br/>
-            <div class= "team"> 
-                Our Team
-                <div class="pics">
-                    <img alt="adam" src={adam}/>
-                        <ul>Developer</ul>
-                    <img alt="jo" src={jo}/>
-                        <ul>Developer</ul>
-
-                    <img alt="ola" src={ola}/>
-                        <ul>UI/UX Designer/Developer</ul>
-
-                </div>
-            </div> 
         </div>
+        <div class= "team"> 
+            Our Team
+            <div class="pics">
+                <img alt="adam" src={adam}/>
+                    <ul>Developer</ul>
+                <img alt="jo" src={jo}/>
+                    <ul>Developer</ul>
+
+                <img alt="ola" src={ola}/>
+                    <ul>UI/UX Designer/Developer</ul>
+
+            </div>
+        </div> 
     </div>
 
 <style>
@@ -59,20 +58,20 @@
         max-width: 25rem;
         position:fixed;
         /* padding-right:2000px ; */
-        margin: auto;
-        box-sizing: border-box;
-        /* display: flex; */
+        /* padding-bottom: 500%; */
+        display: flex;
         align-items: center;
-        height: 100%;
+        height: 25%;
+        width:0%;
     }
     
     .ourvision{
-        text-align: right;
+        text-align: center;
         font-family: 'Lucida Sans';
         /* padding-top: 400px;
         padding-right: 200px; */
-        width: 70%;
-        padding-left: 500px;
+        width: 60%;
+        padding-left: 35%;
         font-size: 50px;
     }
     img[alt~="weirdshape"] {

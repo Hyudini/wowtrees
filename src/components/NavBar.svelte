@@ -67,6 +67,7 @@
   }
   nav {
     background-color: #94B49F;
+
     font-family: Lucida Sans;
     height: var(--navheight);
   }
@@ -202,7 +203,8 @@
     height: 45px;
     align-items: center;
     padding: 0 10px;
-    font-size: 30px;
+    font-size: 40px;
+    font-style: italic;
     font-weight: 500;
 
   }
