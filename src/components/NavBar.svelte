@@ -1,6 +1,7 @@
 
 <script>
   import { onMount } from "svelte";
+  import logo from "../imgs/WowTreeLogo.png";
 
   // Show mobile icon and display menu
   let showMobileMenu = false;
@@ -34,7 +35,7 @@
 
 <nav>
   <div class="logo">
-    <img src= "/src/Images/WowTreeLogo.png" alt= "WowTree">
+    <img src= {logo} alt= "WowTree">
   </div>
   <div class="inner">
     <!-- svelte-ignore a11y-click-events-have-key-events -->
