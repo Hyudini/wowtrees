@@ -1,5 +1,8 @@
 <script lang="ts">
     import Center from "../../../components/Center.svelte";
+    import growth from "../../../imgs/growth.png";
+    import treesbg from "../../../imgs/Treespage1.png";
+
     // import { onMount } from 'svelte';
     // // import axios from 'axios';
     // let searchTerm = '';
@@ -42,7 +45,7 @@
 
   <section>
     <div class="trees">
-      <img src="src/routes/(site)/trees/Treespage1.png" alt="">
+      <img src={treesbg} alt="tree">
       <div class="box">
         <h1>THE TREE GUIDE</h1>
         <p>

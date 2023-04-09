@@ -1,5 +1,11 @@
 <script>
     import Center from "../../../components/Center.svelte";
+    import rec9 from "../../../imgs/Rectangle9.png";
+    import rec10 from "../../../imgs/Rectangle10.png";
+    import rec11 from "../../../imgs/Rectangle11.png";
+    import rec12 from "../../../imgs/Rectangle12.png";
+    import rec13 from "../../../imgs/Rectangle13.png";
+
     /*
     -inside this page I have some text and a component called Text
     -this component attempts to center anything found inside it's tags
@@ -12,7 +18,7 @@
     <ul>
       <li class="tree-items">
         <article>
-          <img src="src/routes/(site)/savetrees/Rectangle9.png" alt="rec">
+          <img src={rec9} alt="rec">
           <div class="tree-items-container">
             <h2>
                 HELP TREES
@@ -23,7 +29,7 @@
       </li>
       <li class="tree-items">
         <article>
-          <img src="src/routes/(site)/savetrees/Rectangle10.png" alt="rec">
+          <img src={rec10} alt="rec">
           <h2>
             HELP TREES
         </h2>
@@ -32,7 +38,7 @@
         </li>
         <li class="tree-items">
             <article>
-              <img src="src/routes/(site)/savetrees/Rectangle11.png" alt="rec">
+              <img src= {rec11} alt="rec">
               <div class="tree-items-container">
                 <h2>
                     HELP TREES
@@ -43,7 +49,7 @@
             </li>
             <li class="tree-items">
                 <article>
-                  <img src="src/routes/(site)/savetrees/Rectangle12.png" alt="rec">
+                  <img src={rec12} alt="rec">
                   <div class="tree-items-container">
                     <h2>
                         HELP TREES
@@ -59,7 +65,7 @@
         <ul>
             <li class="tree-items">
                 <article>
-                    <img src="src/routes/(site)/savetrees/Rectangle12.png" alt="rec">
+                    <img src={rec12} alt="rec">
                     <div class="tree-items-container">
                       <h2>
                           HELP TREES
@@ -70,7 +76,7 @@
             </li>
             <li class="tree-items">
                 <article>
-                  <img src="src/routes/(site)/savetrees/Rectangle13.png" alt="rec">
+                  <img src={rec13} alt="rec">
                   <div class="tree-items-container">
                     <h2>
                         HELP TREES
@@ -81,7 +87,7 @@
             </li>
             <li class="tree-items">
                 <article>
-                  <img src="src/routes/(site)/savetrees/Rectangle10.png" alt="rec">
+                  <img src={rec10} alt="rec">
                   <div class="tree-items-container">
                     <h2>
                         HELP TREES
@@ -92,7 +98,7 @@
             </li>
             <li class="tree-items">
                 <article>
-                  <img src="src/routes/(site)/savetrees/Rectangle11.png" alt="rec">
+                  <img src={rec11} alt="rec">
                   <div class="tree-items-container">
                     <h2>
                         HELP TREES

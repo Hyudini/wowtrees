@@ -10,7 +10,7 @@
     */
   </script>
   <div>
-   <img class="hero-content" src="src/routes/(site)/trees/g.png" alt="">
+   <img class="hero-content" src={grow} alt="">
   </div>
 
   <section class="welcome-container">
