@@ -33,7 +33,9 @@
 </script>
 
 <nav>
-  <div class="logo"><img src= "/src/Images/WowTreeLogo.png" alt= "WowTree"></div>
+  <div class="logo">
+    <img src= "/src/Images/WowTreeLogo.png" alt= "WowTree">
+  </div>
   <div class="inner">
     <!-- svelte-ignore a11y-click-events-have-key-events -->
     <div on:click={handleMobileIconClick} class={`mobile-icon${showMobileMenu ? ' active' : ''}`}>
@@ -63,7 +65,7 @@
   }
   nav {
     background-color: #94B49F;
-    font-family:  Seoul;
+    font-family: Lucida Sans;
     height: var(--navheight);
   }
 
@@ -79,6 +81,10 @@
     height: 100%;
   }
 
+  img{
+    width: 240px;
+    size: auto;
+  }
   .logo {
     position:absolute;
     left:10px;

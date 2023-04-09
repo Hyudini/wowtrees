@@ -1,5 +1,6 @@
 <script>
         import Center from "./Center.svelte";
+        import Footer from "./Footer.svelte";
     /*
     -inside this page I have some text and a component called Text
     -this component tries to center anything found inside it's tags
@@ -7,7 +8,7 @@
     -feel free to edit this component to make it better fit your needs
     */
   </script>
-  
+
 <Center>
    
         <section class="welcome-container">
@@ -16,6 +17,8 @@
                <div class="subtitle">   🔹 California State University, Fullerton 🔸  </div>
              </section>     
 </Center>
+<Footer />
+
 
 
 <style>
