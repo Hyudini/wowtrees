@@ -51,7 +51,9 @@
     </ul>
   </div>
 </nav>
-<Footer />
+<div style="footer-wrapper">
+  <Footer />
+</div>
 
 <style>
 :root {
@@ -59,18 +61,18 @@
 
 }
 
-  @font-face {
-    font-family: 'Seoul';
-    font-style: normal;
-    font-weight: 500;
-    src: url("/Fonts/SeoulHangang-Bold.ttf");
-  }
   nav {
     background-color: #94B49F;
     font-family: Lucida Sans;
     height: var(--navheight);
   }
 
+  .footer-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* change this value to adjust the height of the footer */
+  }
   .inner {
     max-width: 25rem;
     padding-left: 20px;
