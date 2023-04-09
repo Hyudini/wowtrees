@@ -1,6 +1,7 @@
 
 <script>
   import { onMount } from "svelte";
+  import Footer from "./Footer.svelte";
 
   // Show mobile icon and display menu
   let showMobileMenu = false;
@@ -9,7 +10,7 @@
     { label: "Home", href: "/" },
     { label: "Trees", href: "/trees" },
     { label: "About", href: "/about" },
-    { label: "SaveTrees", href: "/savetrees"}
+    { label: "SaveTrees", href: "/savetrees"},
 
   ];
 
@@ -33,12 +34,16 @@
 </script>
 
 <nav>
+  <div class="logo">
+    <img src= "/src/Images/WowTreeLogo.png" alt= "WowTree">
+  </div>
   <div class="inner">
     <!-- svelte-ignore a11y-click-events-have-key-events -->
     <div on:click={handleMobileIconClick} class={`mobile-icon${showMobileMenu ? ' active' : ''}`}>
       <div class="middle-line"></div>
     </div>
     <div class="title"><p>WOWTREES</p></div>
+
     <ul class={`navbar-list${showMobileMenu ? ' mobile' : ''}`}>
       {#each navItems as item}
         <li>
@@ -48,15 +53,24 @@
     </ul>
   </div>
 </nav>
+<Footer />
 
 <style>
 :root {
   --navheight: 50px;     /* navbar-list.mobile*/
 
 }
+
+  @font-face {
+    font-family: 'Seoul';
+    font-style: normal;
+    font-weight: 500;
+    src: url("/Fonts/SeoulHangang-Bold.ttf");
+  }
   nav {
     background-color: #94B49F;
     font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
     height: var(--navheight);
   }
 
@@ -69,9 +83,21 @@
     margin: 0 5rem 5rem 0;
     box-sizing: border-box;
     display: flex;
+    text-align: right;
     align-items: center;
     height: 100%;
   } 
+
+  img{
+    width: 240px;
+    size: auto;
+  }
+  .logo {
+    position:absolute;
+    left:10px;
+    top:10px;
+  }
+  
 
   .title {
     text-align: left;
@@ -100,10 +126,11 @@
     position: absolute;
     width: 100%;
     height: 2px;
-    background-color: #94B49F;
+    background-color: #ffffff;
     transition: all 0.4s;
     transform-origin: center;
   }
+
 
   .mobile-icon:before,
   .middle-line {
@@ -187,7 +214,8 @@
     height: 45px;
     align-items: center;
     padding: 0 10px;
-    font-size: large;
+    font-size: 40px;
+    font-style: italic;
     font-weight: 500;
 
   }

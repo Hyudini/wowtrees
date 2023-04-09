@@ -1,5 +1,7 @@
 <script>
         import Center from "./Center.svelte";
+        import grow from "../imgs/growth.png";
+
     /*
     -inside this page I have some text and a component called Text
     -this component tries to center anything found inside it's tags
@@ -20,20 +22,17 @@
     </div>
   </section>  
 
-
 <style>
-
-
-.welcome-container {
+  .welcome-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .text-container {
   text-align: right;
   margin-left: 20px;
 }
-
 
 .hero-content {
   display: flex;
@@ -47,7 +46,17 @@
   white-space: pre-line;
 }
 
-.text-1 {
+/* .welcome-container {
+      position: relative;
+      max-width: fit-content;
+      line-height: 4rem;
+      margin: 0;
+      top: 10rem;
+      padding:0;
+      
+  } 
+  */
+  .text-1 {
   display: flex;
   flex-direction: column;
   font-size: 3rem;
@@ -58,17 +67,7 @@
   height: 100%; /* Set height to 100% to take up full height of parent */
   font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
 }
-.g {
-    float: left;
-    margin-top: -50px;
-    /* vertical-align: top; */
-    position: relative;
-    margin: 0 10rem 10rem 0;
-    margin-left: auto;
-    margin-right: 0;
-  }
-
-  button {
+button {
   transition: all 0.3s ease;
 }
 .box button {
@@ -86,11 +85,25 @@
   box-shadow: 2px 2px 5px #888888;
   transform: scale(1.1);
 }
+
+  .g {
+    float: left;
+    margin-top: -50px;
+    /* vertical-align: top; */
+    position: relative;
+    margin: 0 10rem 10rem 0;
+    margin-left: auto;
+    margin-right: 0;
+  }
+ 
+   
  .text-2{
-  font-size: 2.7rem;  
+  font-size: 4rem;  
+  font-style: italic;
   font-weight: 200;
   line-height: 3rem;
   color:rgb(0, 0, 0);
+  align-content: center;
  }    
  
   .subtitle {

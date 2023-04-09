@@ -25,7 +25,6 @@
   </section>
 
 
-
 <style>
     .trees{
     position: relative;

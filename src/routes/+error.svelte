@@ -10,7 +10,7 @@
   
 <Center>
     <div class= "err"> 
-    Error ( ͡° ͜ʖ ͡°)
+    Error ( ͡° ͜ʖ ͡°) Pretend this is the Homepage cause the actual one broke:D
     </div>  
 </Center>
 
