@@ -7,7 +7,7 @@
     -feel free to edit this component to make it better fit your needs
     */
   </script>
-  
+
 <Center>
    
         <section class="welcome-container">
@@ -16,6 +16,7 @@
                <div class="subtitle">   🔹 California State University, Fullerton 🔸  </div>
              </section>     
 </Center>
+
 
 
 <style>
