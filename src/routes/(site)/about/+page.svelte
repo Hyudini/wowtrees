@@ -23,7 +23,6 @@
         <img alt="weirdshape" src={weirdshape2}/>
     </div>
     <div class="sadge">
-        <br/>
         <div class="huh">
             <div class="ourvision">
                 <img alt="vision" src={ourvision}/>
@@ -31,21 +30,20 @@
                 We support the movement of making our planet a save place for future generations to live. Through us we will educate young people and give them the opportunities to make an impact by saving trees affected by different social crisis.
             </div>
         </div>
+
         <div class= "team"> 
             Our Team
+            <br/>
             <div class="pics">
-                <img alt="adam" src={adam}/>
-                    <ul>Developer</ul>
-                <img alt="jo" src={jo}/>
-                    <ul>Developer</ul>
-
-                <img alt="ola" src={ola}/>
-                    <ul>UI/UX Designer/Developer</ul>
+                <img alt="adam" src={adam}/><ul>Developer</ul><img alt="jo" src={jo}/><ul>Developer</ul><img alt="ola" src={ola}/><ul style="list-style-type:none">
+                    <li>UI/UX Engineer,</li>
+                    <li>Developer</li>
+                 </ul>
+                
 
             </div>
         </div> 
     </div>
-
 <style>
     .sadge{
         display: flex;
@@ -74,18 +72,18 @@
         padding-left: 35%;
         font-size: 50px;
     }
-    img[alt~="weirdshape"] {
-        padding: .2rem;
-        background-position:left;
-    }
     .team{
         color: #000000;
-        font-size: 30px;
+        font-size: 3rem;
+        font-family: 'Lucida Sans';
         font-weight: 500;
-        margin-left: -15px;
+        /* margin-left: -15px; */
+        align-items: right;
     }
     .pics{
+        grid-row: auto;
         align-items: right;
-        width: 100%;
+        font-size: 2rem;
+
     }
 </style>

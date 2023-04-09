@@ -66,20 +66,20 @@
     }
 
     .box {
-        position: absolute;
-        top: 50%;
-        left: 30%;
-        transform: translate(-50%, -50%);
-        background-color: rgba(255, 255, 255, 0.282);
-        padding: 30px;
-        text-align: center;
-		width: 300px;
-		border: 1px solid #3C6255;
-		border-radius: 2px;
-        background: rgba(255, 255, 255, 0.328);
-		box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
-		padding: 5em;
-		margin: 2 0 1em 0;
+      position: absolute;
+      top: 50%;
+      left: 30%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(255, 255, 255, 0.282);
+      padding: 30px;
+      text-align: center;
+      width: 300px;
+      border: 1px solid #3C6255;
+      border-radius: 2px;
+      background: rgba(255, 255, 255, 0.328);
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+      padding: 5em;
+      margin: 2 0 1em 0;
 	}
     .box h1 {
         font-size: 2em;
@@ -89,9 +89,9 @@
 
     
     .box p {
-        color: #ffffffb2;
+        color: rgba(0, 0, 0, 0.698);
         padding: 0;
-        font-size: 1rem;
+        font-size: 1.5rem;
         
 
     }

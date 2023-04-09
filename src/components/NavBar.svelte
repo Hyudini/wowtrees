@@ -66,21 +66,20 @@
     background-color: #94B49F;
     font-family:  'Lucida Sans';
     height: var(--navheight);
-  }
+    }
 
 
   .inner {
     max-width: 25rem;
-    padding: 15px 60px ;
-    
-    padding-left: 500px;
-    padding-right: 50px; 
-    margin: 0 5rem 5rem 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
     box-sizing: border-box;
     display: flex;
     text-align: right;
     align-items: center;
     height: 100%;
+
   } 
 
   img{
@@ -203,7 +202,7 @@
     align-items: center;
     padding: 0 10px;
     font-size: 40px;
-    font-style: italic;
+    font-style: bold;
     font-weight: 500;
 
   }
