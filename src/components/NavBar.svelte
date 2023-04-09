@@ -91,7 +91,7 @@
     position: absolute;
     width: 100%;
     height: 2px;
-    background-color: #94B49F;
+    background-color: #ffffff;
     transition: all 0.4s;
     transform-origin: center;
   }
@@ -178,7 +178,7 @@
     height: 45px;
     align-items: center;
     padding: 0 10px;
-    font-size: large;
+    font-size: 30px;
     font-weight: 500;
 
   }
