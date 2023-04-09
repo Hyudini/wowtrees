@@ -42,7 +42,6 @@
     <div on:click={handleMobileIconClick} class={`mobile-icon${showMobileMenu ? ' active' : ''}`}>
       <div class="middle-line"></div>
     </div>
-    <div class="title"><p>WOWTREES</p></div>
 
     <ul class={`navbar-list${showMobileMenu ? ' mobile' : ''}`}>
       {#each navItems as item}
@@ -61,16 +60,9 @@
 
 }
 
-  @font-face {
-    font-family: 'Seoul';
-    font-style: normal;
-    font-weight: 500;
-    src: url("/Fonts/SeoulHangang-Bold.ttf");
-  }
   nav {
     background-color: #94B49F;
-    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+    font-family:  'Lucida Sans';
     height: var(--navheight);
   }
 
@@ -78,8 +70,8 @@
     max-width: 25rem;
     padding: 15px 60px ;
     
-    /* padding-left: 20px;
-    padding-right: 20px; */
+    padding-left: 500px;
+    padding-right: 50px; 
     margin: 0 5rem 5rem 0;
     box-sizing: border-box;
     display: flex;
@@ -98,13 +90,6 @@
     top:10px;
   }
   
-
-  .title {
-    text-align: left;
-    padding-right: 20px;
-    padding-left: 20px
-    
-  }
   .title p {
     display: flex;
     padding: 10px;

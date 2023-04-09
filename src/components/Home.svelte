@@ -9,41 +9,42 @@
     -feel free to edit this component to make it better fit your needs
     */
   </script>
-  
+  <div>
+   <img class="hero-content" src="src/routes/(site)/trees/g.png" alt="">
+  </div>
 
-   
   <section class="welcome-container">
-    <div class="hero-content">
-      <img class="g" src="src/routes/(site)/trees/g.png" alt="">
-      <div class="text-container">
-        <div class="text-1"> INSPIRING PEOPLE TO PLANT, NURTURE, LEARN, AND SAVE TREES.</div>
-        <div class="box"> <a href="https://www.ecosia.org/"><button > Join Campaign </button> </a></div>
-      </div>
+    <div class="text-container">
+      
+      <div class="text-1"> INSPIRING PEOPLE TO PLANT, NURTURE, LEARN, AND SAVE TREES.</div>
+      <div class="box"> <a href="https://www.ecosia.org/"><button > Join Campaign </button> </a></div>
     </div>
-  </section>  
+</section>
+ 
 
 <style>
   .welcome-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  margin-right: -100px;
+  margin-left: 6rem;
+  white-space: pre-line; 
 }
 
 .text-container {
-  text-align: right;
-  margin-left: 20px;
+  display: grid;
+  width: 540px;
+  grid-template-columns: 120px -1000px 120px;
+  align-items: start;
+  justify-content: right;
 }
 
 .hero-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  /* top right bottom left*/
-  padding: -5rem 10rem 0rem 10rem;
-  margin-top: -150px;
-  margin-left: -100px;
-  margin-right: 6rem;
-  white-space: pre-line;
+  position: fixed; 
+  left:0px;
+  top:5px;
+  width:45%;
 }
 
 /* .welcome-container {
