@@ -1,7 +1,6 @@
 
 <script>
   import { onMount } from "svelte";
-  import Footer from "./Footer.svelte";
 
   // Show mobile icon and display menu
   let showMobileMenu = false;
@@ -52,9 +51,7 @@
     </ul>
   </div>
 </nav>
-<div style="display: flex; justify-content: center; align-items: center; height: 100px;">
-  <Footer />
-</div>
+
 
 <style>
 :root {

@@ -104,6 +104,18 @@
         margin-top: 10px;
         cursor: pointer;
 }
+.box:hover {
+      background-color: #ffffff8d;
+      color: rgb(9, 1, 1);
+      box-shadow: 2px 2px 5px #888888;
+    }
+
+.box button:hover {
+    background-color: #0d4d0f;
+    color: white;
+    box-shadow: 2px 2px 5px #888888;
+    transform: scale(1.1);
+  }
     /*  */
 
    

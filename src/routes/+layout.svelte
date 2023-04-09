@@ -1,13 +1,13 @@
 <script>
    
 import NavBar from "../components/NavBar.svelte"; 
-import Trees from "../components/Trees.svelte";
+import Footer from "../components/Footer.svelte";
 </script>
   
   <NavBar />
   <main class="nav">
     <slot />
-    <trees />
+    <Footer/>
   </main>
 
   <style>
