@@ -10,14 +10,14 @@
   
 <Center>
     <div class= "welcome"> 
-    Hello! we are on now on our content page
+    Hello! we on ABOUT page
     </div>  
 </Center>
 
 
 <style>
     .welcome{
-    color: #fff;
+    color: #000000;
     font-size: x-large;
     font-weight: 500;
     }

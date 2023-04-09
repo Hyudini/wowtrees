@@ -33,7 +33,7 @@
   .text-1 {
       font-size: 4rem;
       font-weight: 200;
-      color:rgb(191, 229, 252);
+      color:rgb(0, 0, 0);
   }
  
    
@@ -41,13 +41,13 @@
   font-size: 2.7rem;  
   font-weight: 200;
   line-height: 3rem;
-  color:rgb(191, 229, 252);
+  color:rgb(0, 0, 0);
  }    
  
   .subtitle {
      font-size: 1.8rem;
     font-weight: 200;
-    color:rgb(191, 229, 252);
+    color:rgb(0, 0, 0);
     
   }
 </style>

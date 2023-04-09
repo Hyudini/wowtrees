@@ -7,7 +7,9 @@
   // List of navigation items, add more here if you make more pages :D
   const navItems = [
     { label: "Home", href: "/" },
-    { label: "Content", href: "/content" },
+    { label: "Trees", href: "/trees" },
+    { label: "About", href: "/about" },
+    { label: "SaveTrees", href: "/savetrees"}
 
   ];
 
@@ -36,6 +38,7 @@
     <div on:click={handleMobileIconClick} class={`mobile-icon${showMobileMenu ? ' active' : ''}`}>
       <div class="middle-line"></div>
     </div>
+    <div class="title">WOWTREES</div>
     <ul class={`navbar-list${showMobileMenu ? ' mobile' : ''}`}>
       {#each navItems as item}
         <li>
@@ -52,7 +55,7 @@
 
 }
   nav {
-    background-color: #161d27;
+    background-color: #94B49F;
     font-family:  sans-serif;
     height: var(--navheight);
   }
@@ -66,6 +69,12 @@
     display: flex;
     align-items: center;
     height: 100%;
+  }
+
+  .title {
+    text-align: left;
+    padding-right: 20px;
+    padding-left: 20px
   }
 
   .mobile-icon {
@@ -82,7 +91,7 @@
     position: absolute;
     width: 100%;
     height: 2px;
-    background-color: #fff;
+    background-color: #94B49F;
     transition: all 0.4s;
     transform-origin: center;
   }
@@ -137,7 +146,7 @@
 
   .navbar-list.mobile {
     background-color: #8d8a8a9d;
-        position: fixed;
+    position: fixed;
     display: block;
     height: calc(100% - var(--navheight));
     bottom: 0;
@@ -157,12 +166,13 @@
     left: 0;
     width: 100%;
     height: 1px;
-    background-color: #ffffff;
+    background-color: #94B49F;
+;
   }
 
   .navbar-list a {
     
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     display: flex;
     height: 45px;

@@ -2,6 +2,7 @@
 
 import NavBar from "../components/NavBar.svelte";  
 import Home from "../components/Home.svelte";
+
 </script>
   
   <main>
