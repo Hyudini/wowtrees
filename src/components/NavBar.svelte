@@ -52,7 +52,9 @@
     </ul>
   </div>
 </nav>
-<Footer />
+<div style="display: flex; justify-content: center; align-items: center; height: 100px;">
+  <Footer />
+</div>
 
 <style>
 :root {
@@ -65,6 +67,7 @@
     font-family:  'Lucida Sans';
     height: var(--navheight);
   }
+
 
   .inner {
     max-width: 25rem;
