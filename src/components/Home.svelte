@@ -66,7 +66,7 @@
   justify-content: center; /* Center vertically */
   align-items: flex-end; /* Align to the right */
   height: 100%; /* Set height to 100% to take up full height of parent */
-  font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  font-family:  'Lucida Sans';
 }
 button {
   transition: all 0.3s ease;
