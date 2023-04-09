@@ -1,11 +1,42 @@
-<script>
+<script lang="ts">
     import Center from "../../../components/Center.svelte";
-    /*
-    -inside this page I have some text and a component called Text
-    -this component attempts to center anything found inside it's tags
-    -components like this can be reused across your site making them useful
-    -feel free to edit this component to make it better fit your needs
-    */
+    // import { onMount } from 'svelte';
+    // // import axios from 'axios';
+    // let searchTerm = '';
+    // let results: any[] = [];
+    // // let results = [];
+    // const options = {
+    //   headers: {
+    //     Authorization: 'GKZOHNZj0xP65kk0BAE2Tl9LGagm0pfD3DFNxAEEZcMQBhRZVDco8vbNJdnwwCo0',
+    //     'X-RapidAPI-Key': '9da831380emshb347c50d8eb3dfdp1572bejsncd79f183eb82',
+    //     'X-RapidAPI-Host': 'plants2.p.rapidapi.com'
+    //   }
+    // };
+
+    // async function searchPlants(searchTerm: string) {
+    //     try {
+    //         const url = new URL('https://plants2.p.rapidapi.com/api/plants');
+    //         url.searchParams.set('CN',searchTerm);
+    //         const response = await fetch(url,options);
+           
+    //         const plants = await response.json();
+    //         console.log(plants);
+    //         const results = plants.map(plant => {
+    //         return {
+    //             commonName: plant.common_name,
+    //             scientificName: plant.scientific_name
+    //         };
+    //         });
+    //         return results;
+    //     } catch (error) {
+    //         console.error(error);
+    //     }
+    // }
+
+    // onMount(async () => {
+    //   results = await searchPlants(searchTerm);
+    // });
+
   </script>
   
 
@@ -19,7 +50,9 @@
             Through us we will educate young people and give them the opportunities to make an 
             impact by saving trees affected by different social crisis 
         </p>
-        <button>SEARCH FOR TREES</button>
+        <a href="https://en.wikipedia.org/wiki/Category:Trees"><button > Search for Trees </button> </a>
+
+        <!-- <button>SEARCH FOR TREES</button> -->
       </div>
     </div>
   </section>
