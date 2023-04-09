@@ -8,60 +8,84 @@
     */
   </script>
   
-<Center>
+
    
-        <section class="welcome-container">
-          <div class="hero-content">
-            <img class = "g" src="src/routes/(site)/trees/g.png" alt="">
-            <p>INSPIRING PEOPLE TO PLANT, NURTURE, LEARN, AND SAVE TREES</p>
-            <div class="text-1"> INSPIRING PEOPLE TO PLANT, NURTURE, LEARN, AND SAVE TREES.</div> <br>
-            <div class="container">
-            </div>
-          </div>
-         
-               <!-- <div class="text-2"> Welcome to FullyHacks 2023</div> <br> -->
-               <!-- make picture show -->
-             
-               <!-- <div class="subtitle">   🔹 California State University, Fullerton 🔸  </div> -->
-             </section>     
-</Center>
+  <section class="welcome-container">
+    <div class="hero-content">
+      <img class="g" src="src/routes/(site)/trees/g.png" alt="">
+      <div class="text-container">
+        <div class="text-1"> INSPIRING PEOPLE TO PLANT, NURTURE, LEARN, AND SAVE TREES.</div>
+        <div class="box"> <a href="https://www.ecosia.org/"><button > Join Campaign </button> </a></div>
+      </div>
+    </div>
+  </section>  
 
 
 <style>
 
 
-    .welcome-container {
-      position: relative;
-      max-width: fit-content;
-      line-height: 4rem;
-      margin: 0;
-      top: 10rem;
-      padding:0;
-      
-  }
+.welcome-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text-container {
+  text-align: right;
+  margin-left: 20px;
+}
 
 
-  .hero-content p {
-    align-items: right;
-  }
-  .text-1 {
-    display: flex;
-    flex-direction: column;
-      font-size: 5rem;
-      font-weight: 200;
-      color:rgb(0, 0, 0);
-      /* font-family: 'Courier New', Courier, monospace; */
-  }
-  .g{
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* top right bottom left*/
+  padding: -5rem 10rem 0rem 10rem;
+  margin-top: -150px;
+  margin-left: -100px;
+  margin-right: 6rem;
+  white-space: pre-line;
+}
+
+.text-1 {
+  display: flex;
+  flex-direction: column;
+  font-size: 3rem;
+  font-weight: 200;
+  color: rgb(0, 0, 0);
+  justify-content: center; /* Center vertically */
+  align-items: flex-end; /* Align to the right */
+  height: 100%; /* Set height to 100% to take up full height of parent */
+  font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.g {
     float: left;
-    /* padding-top: 5px; */
+    margin-top: -50px;
+    /* vertical-align: top; */
     position: relative;
-    margin: 0 5rem 10rem 0;
-  margin-left: auto;
-  margin-right: 0;
+    margin: 0 10rem 10rem 0;
+    margin-left: auto;
+    margin-right: 0;
   }
- 
-   
+
+  button {
+  transition: all 0.3s ease;
+}
+.box button {
+  background-color: #3C6255;
+  color: #fff;
+  border: 3px solid #15362B;
+  border-radius: 5px; /* changed from 25rem to 25px */
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.box button:hover {
+  background-color: #0d4d0f;
+  color: white;
+  box-shadow: 2px 2px 5px #888888;
+  transform: scale(1.1);
+}
  .text-2{
   font-size: 2.7rem;  
   font-weight: 200;
