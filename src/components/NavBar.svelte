@@ -51,7 +51,7 @@
     </ul>
   </div>
 </nav>
-<div style="footer-wrapper">
+<div style="display: flex; justify-content: center; align-items: center; height: 100px;">
   <Footer />
 </div>
 
@@ -67,12 +67,7 @@
     height: var(--navheight);
   }
 
-  .footer-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100px; /* change this value to adjust the height of the footer */
-  }
+
   .inner {
     max-width: 25rem;
     padding-left: 20px;
