@@ -9,7 +9,7 @@
     { label: "Home", href: "/" },
     { label: "Trees", href: "/trees" },
     { label: "About", href: "/about" },
-    { label: "SaveTrees", href: "/savetrees"}
+    { label: "SaveTrees", href: "/savetrees"},
 
   ];
 
@@ -33,12 +33,12 @@
 </script>
 
 <nav>
+  <div class="logo"><img src= "/src/Images/WowTreeLogo.png" alt= "WowTree"></div>
   <div class="inner">
     <!-- svelte-ignore a11y-click-events-have-key-events -->
     <div on:click={handleMobileIconClick} class={`mobile-icon${showMobileMenu ? ' active' : ''}`}>
       <div class="middle-line"></div>
     </div>
-    <div class="title">WOWTREES</div>
     <ul class={`navbar-list${showMobileMenu ? ' mobile' : ''}`}>
       {#each navItems as item}
         <li>
@@ -54,9 +54,16 @@
   --navheight: 50px;     /* navbar-list.mobile*/
 
 }
+
+  @font-face {
+    font-family: 'Seoul';
+    font-style: normal;
+    font-weight: 500;
+    src: url("/Fonts/SeoulHangang-Bold.ttf");
+  }
   nav {
     background-color: #94B49F;
-    font-family:  sans-serif;
+    font-family:  Seoul;
     height: var(--navheight);
   }
 
@@ -67,9 +74,17 @@
     margin: auto;
     box-sizing: border-box;
     display: flex;
+    text-align: right;
     align-items: center;
     height: 100%;
   }
+
+  .logo {
+    position:absolute;
+    left:10px;
+    top:10px;
+  }
+  
 
   .title {
     text-align: left;
@@ -91,10 +106,11 @@
     position: absolute;
     width: 100%;
     height: 2px;
-    background-color: #94B49F;
+    background-color: #ffffff;
     transition: all 0.4s;
     transform-origin: center;
   }
+
 
   .mobile-icon:before,
   .middle-line {
