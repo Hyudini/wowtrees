@@ -11,9 +11,18 @@
 <Center>
    
         <section class="welcome-container">
-               <div class="text-1">Hello! </div> <br>
-               <div class="text-2"> Welcome to FullyHacks 2023</div> <br>
-               <div class="subtitle">   🔹 California State University, Fullerton 🔸  </div>
+          <div class="hero-content">
+            <img class = "g" src="src/routes/(site)/trees/g.png" alt="">
+            <p>INSPIRING PEOPLE TO PLANT, NURTURE, LEARN, AND SAVE TREES</p>
+            <div class="text-1"> INSPIRING PEOPLE TO PLANT, NURTURE, LEARN, AND SAVE TREES.</div> <br>
+            <div class="container">
+            </div>
+          </div>
+         
+               <!-- <div class="text-2"> Welcome to FullyHacks 2023</div> <br> -->
+               <!-- make picture show -->
+             
+               <!-- <div class="subtitle">   🔹 California State University, Fullerton 🔸  </div> -->
              </section>     
 </Center>
 
@@ -30,10 +39,26 @@
       padding:0;
       
   }
+
+
+  .hero-content p {
+    align-items: right;
+  }
   .text-1 {
-      font-size: 4rem;
+    display: flex;
+    flex-direction: column;
+      font-size: 5rem;
       font-weight: 200;
       color:rgb(0, 0, 0);
+      /* font-family: 'Courier New', Courier, monospace; */
+  }
+  .g{
+    float: left;
+    /* padding-top: 5px; */
+    position: relative;
+    margin: 0 5rem 10rem 0;
+  margin-left: auto;
+  margin-right: 0;
   }
  
    

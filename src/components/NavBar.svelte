@@ -38,7 +38,7 @@
     <div on:click={handleMobileIconClick} class={`mobile-icon${showMobileMenu ? ' active' : ''}`}>
       <div class="middle-line"></div>
     </div>
-    <div class="title">WOWTREES</div>
+    <div class="title"><p>WOWTREES</p></div>
     <ul class={`navbar-list${showMobileMenu ? ' mobile' : ''}`}>
       {#each navItems as item}
         <li>
@@ -56,25 +56,34 @@
 }
   nav {
     background-color: #94B49F;
-    font-family:  sans-serif;
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     height: var(--navheight);
   }
 
   .inner {
     max-width: 25rem;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: auto;
+    padding: 15px 60px ;
+    
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    margin: 0 5rem 5rem 0;
     box-sizing: border-box;
     display: flex;
     align-items: center;
     height: 100%;
-  }
+  } 
 
   .title {
     text-align: left;
     padding-right: 20px;
     padding-left: 20px
+    
+  }
+  .title p {
+    display: flex;
+    padding: 10px;
+    font-size: 1.5rem;
+    align-items: flex-end;
   }
 
   .mobile-icon {
